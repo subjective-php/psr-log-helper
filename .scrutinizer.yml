@@ -1,6 +1,7 @@
 filter:
     excluded_paths:
         - 'vendor/*'
+        - 'tests/*'
 before_commands:
     - 'composer install --prefer-source'
 checks:
@@ -16,10 +17,11 @@ tools:
     php_loc:
         excluded_dirs:
             - vendor
+            - tests
     php_pdepend: true
     php_sim: true
 build_failure_conditions:
-    - 'elements.rating(<= C).new.exists'          
-    - 'issues.label("coding-style").new.exists'  
-    - 'issues.severity(>= MAJOR).new.exists' 
+    - 'elements.rating(<= C).new.exists'
+    - 'issues.label("coding-style").new.exists'
+    - 'issues.severity(>= MAJOR).new.exists'
     - 'project.metric("scrutinizer.quality", < 6)'
