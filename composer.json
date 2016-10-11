@@ -1,0 +1,27 @@
+{
+    "name": "chadicus/psr-log-helper",
+    "description": "Utilities to assist with PSR-3 logger implementations",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chad Gray",
+            "email": "chadwickgray@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.6 || ~7.0",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "chadicus/coding-standard": "^1.1",
+        "phpunit/phpunit": "^5.3",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "Chadicus\\Psr\\Log\\" : "src" }
+    },
+    "autoload-dev": {
+        "psr-4": { "ChadicusTest\\Psr\\Log\\" : "tests" }
+    }
+}
