@@ -13,7 +13,7 @@ PSR Log Helper
 [![Monthly Downloads](https://poser.pugx.org/chadicus/psr-log-helper/d/monthly)](https://packagist.org/packages/chadicus/psr-log-helper)
 [![Daily Downloads](https://poser.pugx.org/chadicus/psr-log-helper/d/daily)](https://packagist.org/packages/chadicus/psr-log-helper)
 
-Utilities to assist with PSR-3 logger implementations.
+Utilities to assist with [PSR-3 logger](https://github.com/php-fig/log) implementations.
 
 ## Requirements
 
