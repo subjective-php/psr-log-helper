@@ -17,21 +17,21 @@ Utilities to assist with [PSR-3 logger](https://github.com/php-fig/log) implemen
 
 ## Requirements
 
-PSR Log MongoDB requires PHP 5.6 (or later).
+PSR Log Helper requires PHP 5.6 (or later).
 
-##Composer
+## Composer
 To add the library as a local, per-project dependency use [Composer](http://getcomposer.org)! Simply add a dependency on `chadicus/psr-log-helper` to your project's `composer.json`.
 ```sh
 composer require chadicus/psr-log-helper
 ```
 
-##Contact
+## Contact
 Developers may be contacted at:
 
  * [Pull Requests](https://github.com/chadicus/psr-log-helper/pulls)
  * [Issues](https://github.com/chadicus/psr-log-helper/issues)
 
-##Run Unit Tests
+## Run Unit Tests
 With a checkout of the code get [Composer](http://getcomposer.org) in your PATH and run:
 
 ```sh
