@@ -45,7 +45,7 @@ final class LoggerHelperTest extends \PHPUnit_Framework_TestCase
      */
     public function validateLevelInvalid()
     {
-    	LoggerHelper::validateLevel('invalid');
+        LoggerHelper::validateLevel('invalid');
     }
 
     /**
@@ -58,6 +58,6 @@ final class LoggerHelperTest extends \PHPUnit_Framework_TestCase
      */
     public function validateLevelValid()
     {
-    	$this->assertNull(LoggerHelper::validateLevel('info'));
+        $this->assertNull(LoggerHelper::validateLevel('info'));
     }
 }

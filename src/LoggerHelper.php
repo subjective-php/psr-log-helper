@@ -18,7 +18,7 @@ abstract class LoggerHelper
      *
      * @throws InvalidArgumentException Throw if $level is not a know RFC-5424 level.
      */
-    final public static function validateLevel($level)
+    final public static function validateLevel($level)//@codingStandardsIgnoreLine Ignore missing type hints
     {
         if (!is_string($level) || !defined('\\Psr\\Log\\LogLevel::' . strtoupper($level))) {
             throw new InvalidArgumentException('Given $level was not a known LogLevel');
@@ -33,7 +33,7 @@ abstract class LoggerHelper
      *
      * @return string
      */
-    final public static function interpolateMessage($message, array $context)
+    final public static function interpolateMessage($message, array $context)//@codingStandardsIgnoreLine Ignore missing type hints
     {
         $context = array_filter(
             $context,
