@@ -35,5 +35,4 @@ final class MessageInterpolationTraitTest extends \PHPUnit_Framework_TestCase
             $this->interpolateMessage($message, $context)
         );
     }
-
 }
