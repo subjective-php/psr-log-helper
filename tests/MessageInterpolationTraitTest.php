@@ -8,7 +8,7 @@ use Chadicus\Psr\Log\MessageInterpolationTrait;
  * @coversDefaultClass \Chadicus\Psr\Log\MessageInterpolationTrait
  * @covers ::<private>
  */
-final class MessageInterpolationTraitTest extends \PHPUnit_Framework_TestCase
+final class MessageInterpolationTraitTest extends \PHPUnit\Framework\TestCase
 {
     use MessageInterpolationTrait;
 

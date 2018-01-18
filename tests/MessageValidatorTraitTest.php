@@ -8,7 +8,7 @@ use Chadicus\Psr\Log\MessageValidatorTrait;
  * @coversDefaultClass \Chadicus\Psr\Log\MessageValidatorTrait
  * @covers ::<private>
  */
-final class MessageValidatorTraitTest extends \PHPUnit_Framework_TestCase
+final class MessageValidatorTraitTest extends \PHPUnit\Framework\TestCase
 {
     use MessageValidatorTrait;
 

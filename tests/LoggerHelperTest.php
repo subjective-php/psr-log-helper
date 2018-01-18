@@ -7,7 +7,7 @@ use Chadicus\Psr\Log\LoggerHelper;
 /**
  * @coversDefaultClass Chadicus\Psr\Log\LoggerHelper
  */
-final class LoggerHelperTest extends \PHPUnit_Framework_TestCase
+final class LoggerHelperTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Verify basic behavior of interpolateMessage().
