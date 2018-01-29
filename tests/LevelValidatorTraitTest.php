@@ -8,7 +8,7 @@ use Chadicus\Psr\Log\LevelValidatorTrait;
  * @coversDefaultClass \Chadicus\Psr\Log\LevelValidatorTrait
  * @covers ::<private>
  */
-final class LevelValidatorTraitTest extends \PHPUnit_Framework_TestCase
+final class LevelValidatorTraitTest extends \PHPUnit\Framework\TestCase
 {
     use LevelValidatorTrait;
 
