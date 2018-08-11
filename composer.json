@@ -2,13 +2,6 @@
     "name": "chadicus/psr-log-helper",
     "description": "Utilities to assist with PSR-3 logger implementations",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Chad Gray",
-            "email": "chadwickgray@gmail.com",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^7.0",
         "psr/log": "^1.0"
