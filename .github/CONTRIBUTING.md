@@ -9,14 +9,18 @@ Submit via [GitHub Issues](/../../issues).
 ## Pull Requests
 Code changes should be sent through [GitHub Pull Requests](/../../pulls).  Before submitting the pull request, make sure that phpunit reports success:
 
+## Pull Requests
+Code changes should be sent through [GitHub Pull Requests](/../../pulls).  Before submitting the pull request, make sure that phpunit reports success:
+
+### PHPUnit
+While the build does not strictly enforce 100% [PHPUnit](http://www.phpunit.de) code coverage, it will not allow coverage to drop below its current percentage.
+
 ```sh
 ./vendor/bin/phpunit --coverage-html coverage
 ```
 
-While the build does not enforce 100% [PHPUnit](http://www.phpunit.de) code coverage, it will not allow coverage to drop below its current percentage.
-
-The build will also not allow any errors for the [coding standard](http://chadicus.github.io/coding-standard/)
+### PHP CodeSniffer
+The build will also not allow any errors for the [coding standard](https://www.php-fig.org/psr/psr-2)
 
 ```sh
-./vendor/bin/phpcs --standard=./vendor/chadicus/coding-standard/Chadicus src tests
-```
+./vendor/bin/phpcs
