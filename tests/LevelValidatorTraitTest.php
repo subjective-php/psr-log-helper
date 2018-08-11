@@ -1,11 +1,11 @@
 <?php
 
-namespace ChadicusTest\Psr\Log;
+namespace SubjectivePHPTest\Psr\Log;
 
-use Chadicus\Psr\Log\LevelValidatorTrait;
+use SubjectivePHP\Psr\Log\LevelValidatorTrait;
 
 /**
- * @coversDefaultClass \Chadicus\Psr\Log\LevelValidatorTrait
+ * @coversDefaultClass \SubjectivePHP\Psr\Log\LevelValidatorTrait
  * @covers ::<private>
  */
 final class LevelValidatorTraitTest extends \PHPUnit\Framework\TestCase

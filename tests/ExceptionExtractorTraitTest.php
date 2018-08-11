@@ -1,11 +1,11 @@
 <?php
 
-namespace ChadicusTest\Psr\Log;
+namespace SubjectivePHPTest\Psr\Log;
 
-use Chadicus\Psr\Log\ExceptionExtractorTrait;
+use SubjectivePHP\Psr\Log\ExceptionExtractorTrait;
 
 /**
- * @coversDefaultClass \Chadicus\Psr\Log\ExceptionExtractorTrait
+ * @coversDefaultClass \SubjectivePHP\Psr\Log\ExceptionExtractorTrait
  * @covers ::<private>
  */
 final class ExceptionExtractorTraitTest extends \PHPUnit\Framework\TestCase

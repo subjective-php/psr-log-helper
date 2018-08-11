@@ -1,6 +1,6 @@
 <?php
 
-namespace Chadicus\Psr\Log;
+namespace SubjectivePHP\Psr\Log;
 
 /**
  * Trait for PSR-3 Message Interpolation.

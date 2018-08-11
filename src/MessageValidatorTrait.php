@@ -1,6 +1,6 @@
 <?php
 
-namespace Chadicus\Psr\Log;
+namespace SubjectivePHP\Psr\Log;
 
 use Psr\Log\InvalidArgumentException;
 
