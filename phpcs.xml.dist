@@ -3,5 +3,5 @@
     <file>./src</file>
     <file>./tests</file>
     <arg value="p" />
-    <rule ref="./vendor/chadicus/coding-standard/Chadicus"/>
+    <rule ref="PSR2" />
 </ruleset>
