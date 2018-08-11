@@ -1,11 +1,11 @@
 <?php
 
-namespace ChadicusTest\Psr\Log;
+namespace SubjectivePHPTest\Psr\Log;
 
-use Chadicus\Psr\Log\MessageValidatorTrait;
+use SubjectivePHP\Psr\Log\MessageValidatorTrait;
 
 /**
- * @coversDefaultClass \Chadicus\Psr\Log\MessageValidatorTrait
+ * @coversDefaultClass \SubjectivePHP\Psr\Log\MessageValidatorTrait
  * @covers ::<private>
  */
 final class MessageValidatorTraitTest extends \PHPUnit\Framework\TestCase

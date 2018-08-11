@@ -1,5 +1,5 @@
 {
-    "name": "chadicus/psr-log-helper",
+    "name": "subjective-php/psr-log-helper",
     "description": "Utilities to assist with PSR-3 logger implementations",
     "license": "MIT",
     "require": {
@@ -15,9 +15,9 @@
         "sort-packages": true
     },
     "autoload": {
-        "psr-4": { "Chadicus\\Psr\\Log\\" : "src" }
+        "psr-4": { "SubjectivePHP\\Psr\\Log\\" : "src" }
     },
     "autoload-dev": {
-        "psr-4": { "ChadicusTest\\Psr\\Log\\" : "tests" }
+        "psr-4": { "SubjectivePHPTest\\Psr\\Log\\" : "tests" }
     }
 }
