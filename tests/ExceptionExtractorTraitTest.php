@@ -6,7 +6,6 @@ use SubjectivePHP\Psr\Log\ExceptionExtractorTrait;
 
 /**
  * @coversDefaultClass \SubjectivePHP\Psr\Log\ExceptionExtractorTrait
- * @covers ::<private>
  */
 final class ExceptionExtractorTraitTest extends \PHPUnit\Framework\TestCase
 {

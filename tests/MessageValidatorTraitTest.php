@@ -6,7 +6,6 @@ use SubjectivePHP\Psr\Log\MessageValidatorTrait;
 
 /**
  * @coversDefaultClass \SubjectivePHP\Psr\Log\MessageValidatorTrait
- * @covers ::<private>
  */
 final class MessageValidatorTraitTest extends \PHPUnit\Framework\TestCase
 {
@@ -45,12 +44,12 @@ final class MessageValidatorTraitTest extends \PHPUnit\Framework\TestCase
     /**
      * @test
      * @covers ::validateMessage
-     * @expectedException \Psr\Log\InvalidArgumentException
      *
      * @return void
      */
     public function validateMessageInvalid()
     {
+        $this->expectException(\Psr\Log\InvalidArgumentException::class);
         $this->validateMessage(new \StdClass());
     }
 }
