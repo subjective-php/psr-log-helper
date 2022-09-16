@@ -6,7 +6,6 @@ use SubjectivePHP\Psr\Log\MessageInterpolationTrait;
 
 /**
  * @coversDefaultClass \SubjectivePHP\Psr\Log\MessageInterpolationTrait
- * @covers ::<private>
  */
 final class MessageInterpolationTraitTest extends \PHPUnit\Framework\TestCase
 {

@@ -6,7 +6,6 @@ use SubjectivePHP\Psr\Log\LevelValidatorTrait;
 
 /**
  * @coversDefaultClass \SubjectivePHP\Psr\Log\LevelValidatorTrait
- * @covers ::<private>
  */
 final class LevelValidatorTraitTest extends \PHPUnit\Framework\TestCase
 {
@@ -28,12 +27,12 @@ final class LevelValidatorTraitTest extends \PHPUnit\Framework\TestCase
     /**
      * @test
      * @covers ::validateLevel
-     * @expectedException \Psr\Log\InvalidArgumentException
      *
      * @return void
      */
     public function validateLevelInvalid()
     {
+        $this->expectException(\Psr\Log\InvalidArgumentException::class);
         $this->validateLevel('invalid');
     }
 }
