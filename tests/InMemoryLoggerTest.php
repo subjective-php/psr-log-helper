@@ -11,7 +11,7 @@ use SubjectivePHP\Psr\Log\InMemoryLogger;
  * @coversDefaultClass \SubjectivePHP\Psr\Log\InMemoryLogger
  * @covers ::__construct
  */
-final class InMeoryLoggerTest extends TestCase
+final class InMemoryLoggerTest extends TestCase
 {
     /**
      * @test
